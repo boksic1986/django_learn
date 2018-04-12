@@ -18,3 +18,9 @@ def get_name(request):
     else:
         form = NameForm()
     return render(request, 'book/index.html', {'form':form})
+
+
+def show_name(request):
+    if request.method == 'POST':
+        form = request.POST
+        return  render(request, 'book/index.html', {'form':form})

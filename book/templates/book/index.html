@@ -1,2 +1,5 @@
-{{ form.as_p }}
-<input type="submit">
+<form action="/book/your/" method="post">
+{% csrf_token %}
+{{ form }}
+<input type="submit" value="Submit" />
+</form>

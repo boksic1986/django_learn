@@ -11,4 +11,5 @@ app_name = 'book'
 urlpatterns = [
     path('', views.index, name='index'),
     path('name/', views.get_name, name='book'),
+    path('your/', views.show_name)
 ]
