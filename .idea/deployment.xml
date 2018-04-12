@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ssh://chenjc@192.168.1.202:22/soft/miniconda3/bin/python" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="ssh://chenjc@192.168.1.202:22/soft/miniconda3/bin/python">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/project/BIT/chenjc/python_packages/alicloud" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
