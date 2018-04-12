@@ -1,0 +1,9 @@
+{% load static %}
+<link rel="stylesheet"  type="text/css" href="{% static 'loggin/css/index.css'%}" />
+{% if lsq %}
+<ul>
+    <li>{{ lsq }}</li>
+</ul>
+{% else %}
+<p>No Date.</p>
+{% endif %}
